@@ -1,0 +1,13 @@
+{
+  "name": "node-warn-demo",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "warn": "./bin/warn.js"
+  },
+  "author": "Hannah Wolfe",
+  "license": "MIT",
+  "dependencies": {
+    "extract-zip": "2.0.0"
+  }
+}
