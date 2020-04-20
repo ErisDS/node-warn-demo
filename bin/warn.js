@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 
-process.on('warning', () => {
-    // Do Nothing
-});
+process.removeAllListeners('warning')
 
 require('extract-zip');
 
