@@ -1,4 +1,8 @@
-#!/usr/bin/env NODE_OPTIONS=--no-warnings node
+#!/usr/bin/env node
+
+process.on('warning', () => {
+    // Do Nothing
+});
 
 require('extract-zip');
 
